@@ -23,7 +23,7 @@ const char* password = "*****";   //your network password
 int gpioPIR = 13;   //PIR Motion Sensor
 
 const char* myDomain = "script.google.com";
-String myScript = "/macros/s/**********/exec";    //Create your Google Apps Script and replace the "myScript" path.
+String myScript = "/macros/s/AKfycbySDdv7uLeLBAuYKDN1dynvG9p57XTw8Z_mCCT8fbEQYr0S_J3S/exec";    //Create your Google Apps Script and replace the "myScript" path.
 String myLineNotifyToken = "myToken=*****";    //Line Notify Token. You can set the value of xxxxxxxxxx empty if you don't want to send picture to Linenotify.
 String myFoldername = "&myFoldername=ESP32-CAM";
 String myFilename = "&myFilename=ESP32-CAM.jpg";
